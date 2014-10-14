@@ -1,0 +1,4 @@
+[nosetests]
+with-cov=1
+rednose=1
+
