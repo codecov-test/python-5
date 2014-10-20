@@ -3,3 +3,5 @@ python:
   - 3.4
 script:
   - nosetests --config .nosecfg
+after_success: codecov
+install: pip install codecov
