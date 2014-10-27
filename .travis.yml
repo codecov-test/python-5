@@ -2,4 +2,6 @@ language: python
 python:
   - 3.4
 script:
-  - nosetests --config .nosecfg
+  - nosetests --with-coverage --config .nosecfg
+after_success: codecov
+install: pip install codecov
